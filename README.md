@@ -1,1 +1,100 @@
-# mk-power-demo
+<!DOCTYPE html><html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK-POWER 工具品牌官網</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .navbar {
+      background-color: #000;
+    }
+    .navbar-brand, .nav-link, .footer {
+      color: #fff !important;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1606229132902-9bfe2ac5c57e?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MK-POWER</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#products">產品</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">關於我們</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">聯絡我們</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <section class="hero">
+    <div class="text-center">
+      <img src="logo.png" alt="MK-POWER Logo" width="150">
+      <h1 class="display-4">專業電動工具品牌</h1>
+      <p>高效．耐用．工藝品質</p>
+    </div>
+  </section>  <section class="container my-5" id="products">
+    <h2 class="text-center mb-4">熱銷產品</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x200?text=18V+衝擊起子" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">18V 無刷衝擊起子</h5>
+            <p class="card-text">輕巧高扭力，三段速設計，適合各類裝修工程。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x200?text=W250+氣動扳手" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">W250 氣動扳手</h5>
+            <p class="card-text">最大扭力 880Nm，工業級耐用設計。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x200?text=配件+組" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">多功能配件組</h5>
+            <p class="card-text">搭配各種工具使用，耐磨高效。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <section class="container my-5" id="about">
+    <h2 class="text-center mb-4">關於 MK-POWER</h2>
+    <p>
+      MK-POWER 成立於 2013 年，專注於開發高品質電動工具與氣動工具。品牌強調耐用性與高性能，產品廣泛應用於建築、裝修、工廠等各大產業。
+    </p>
+  </section>  <section class="container my-5" id="contact">
+    <h2 class="text-center mb-4">聯絡我們</h2>
+    <p>電話：04-12345678　Email：mkpower@gmail.com</p>
+    <p>地址：台中市北屯區工業三路88號</p>
+  </section>  <footer>
+    <p>&copy; 2025 MK-POWER. All rights reserved.</p>
+  </footer></body>
+</html>
